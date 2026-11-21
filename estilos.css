@@ -1,0 +1,4 @@
+Scenario: Navegar desde inicio hasta productos
+  Given que el usuario está en la página principal
+  When selecciona la opción Productos del menú
+  Then el sistema debe abrir la página del catálogo

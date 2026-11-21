@@ -1,0 +1,4 @@
+Scenario: Buscar un producto existente
+  Given que el usuario está en el catálogo
+  When escribe "Martillo" en el buscador
+  Then el sistema debe mostrar el producto Martillo

@@ -1,0 +1,5 @@
+Scenario: Buscar un producto que no existe
+  Given que el usuario está en el catálogo
+  When escribe "ProductoXYZ" en el buscador
+  Then el sistema no debe mostrar productos
+  And debe indicar que no se encontraron resultados
